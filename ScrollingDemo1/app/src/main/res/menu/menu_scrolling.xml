@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.scrollingdemo1.ScrollingActivity">
+
+    <item
+        android:id="@+id/action_add_item"
+        android:orderInCategory="1"
+        android:title="Add test item"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="10"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="100"
+        android:title="Quit"
+        app:showAsAction="always" />
+</menu>
